@@ -10,7 +10,6 @@ const nav = [
   { label: 'Press', href: '/publications' },
   { label: 'Speaking', href: '/speaking' },
   { label: 'Contact', href: '/contact' },
-  { label: 'Press Kit', href: '/press-kit' },
 ];
 
 export function Footer() {
@@ -48,9 +47,6 @@ export function Footer() {
         <div className="mt-8 flex flex-wrap gap-4">
           {profile.social.linkedin && (
             <a href={profile.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-muted2 hover:text-teal transition-colors">LinkedIn</a>
-          )}
-          {profile.social.twitter && (
-            <a href={profile.social.twitter} target="_blank" rel="noopener noreferrer" className="text-sm text-muted2 hover:text-teal transition-colors">Twitter</a>
           )}
           {profile.social.youtube && (
             <a href={profile.social.youtube} target="_blank" rel="noopener noreferrer" className="text-sm text-muted2 hover:text-teal transition-colors">YouTube</a>
