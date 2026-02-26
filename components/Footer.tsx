@@ -20,7 +20,12 @@ export function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="font-heading font-semibold text-ink">{profile.name}</p>
-            <p className="mt-1 text-sm text-muted">{profile.tagline}</p>
+            <p className="mt-1 text-sm text-muted">
+              Tech executive & founder building the first community social media platform, Vibe{' '}
+              <a href={profile.vibeUrl} target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">
+                vibeconnect.social
+              </a>
+            </p>
             <a
               href={`mailto:${profile.email}`}
               className="mt-2 inline-block text-sm text-teal hover:text-teal-hover transition-colors"

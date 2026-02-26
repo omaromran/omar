@@ -11,7 +11,6 @@ const navLinks = [
   { label: 'Awards', href: '/awards' },
   { label: 'Press', href: '/publications' },
   { label: 'Speaking', href: '/speaking' },
-  { label: 'Contact', href: '/contact' },
 ];
 
 export function Nav() {

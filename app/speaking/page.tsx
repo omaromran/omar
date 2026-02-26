@@ -24,7 +24,7 @@ export default function SpeakingPage() {
         <div className="aspect-video w-full">
           <iframe
             src={tedxEmbedUrl}
-            title="TEDx: Shyness is a Bacteria, Not a Parasite"
+            title="TED Talk: Building up your resilience even if the odds are against you."
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="h-full w-full"
@@ -32,10 +32,10 @@ export default function SpeakingPage() {
         </div>
         <div className="p-6">
           <h2 className="font-heading text-xl font-semibold text-ink">
-            TEDx — Shyness is a Bacteria, Not a Parasite
+            TED Talk: Building up your resilience even if the odds are against you.
           </h2>
           <p className="mt-2 text-muted">
-            A talk on reframing shyness through community and connection.
+            Steps and example on how to achieve &quot;naive&quot; goals.
           </p>
           <a
             href="https://www.youtube.com/watch?v=CedcZlS9ms4"

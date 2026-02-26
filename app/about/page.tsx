@@ -17,28 +17,28 @@ export default function AboutPage() {
     'Omar Jacques Omran was named one of the Top 150 Global Innovators in 2024 for his leadership in technology and digital transformation across three publicly traded companies.',
     'He has delivered over $500M in cumulative net profit growth through large-scale innovations and by building the two largest technology alliances in the theme park and food service industries.',
     "As Chief Technology Officer at Six Flags, Omar led the company's largest digital transformation across 27 parks, managing $1.5B in revenue systems and generating $100M in incremental net profit.",
-    "Prior to that, he served as VP of Digital Transformation at Welbilt, where he scaled KitchenConnect into the world's largest foodservice IoT platform. At Middleby, he founded Open Kitchen, one of the earliest cloud platforms in the industry.",
-    'A serial entrepreneur, Omar also built AI-driven malaria detection software and co-founded multiple tech startups.',
+    "Prior to that, he served as VP of Digital Transformation at Welbilt, where he scaled KitchenConnect into the world's largest foodservice IoT platform. At Middleby, he founded Middleby Connect (known today as Open Kitchen), one of the earliest cloud platforms in the industry.",
+    'A serial entrepreneur, Omar also built AI-driven malaria detection software in 2013 and co-founded multiple tech startups.',
   ];
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16 md:py-24">
       <SectionHeader
         title="About"
-        subtitle="Tech executive & founder — outcomes-driven leadership."
+        subtitle="Tech executive & founder"
         className="mb-14"
       />
 
       {/* 2-column: headshot + bio */}
       <div className="grid md:grid-cols-[280px_1fr] gap-12 md:gap-16 items-start">
-        <div className="relative mx-auto md:mx-0 w-56 h-56 md:w-full md:aspect-square max-w-[280px] rounded-2xl border border-border bg-surface overflow-hidden shadow-lg ring-2 ring-teal/10">
+        <div className="relative mx-auto md:mx-0 w-56 h-56 md:w-[280px] md:h-[280px] rounded-full border border-border bg-surface overflow-hidden shadow-lg ring-2 ring-teal/10">
           <ImageWithPlaceholder
             src={media.headshot.primary}
             alt={profile.name}
             fill
             placeholderLabel="Headshot"
             placeholderIcon="O"
-            className="rounded-2xl"
+            className="rounded-full"
           />
         </div>
         <div className="min-w-0">
@@ -51,17 +51,58 @@ export default function AboutPage() {
           </section>
 
           <section className="mt-12">
-            <h2 className="font-heading text-xl font-semibold text-ink">Values & leadership</h2>
+            <h2 className="font-heading text-xl font-semibold text-ink">Goal</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              Omar focuses on building high-impact technology organizations and
-              platforms that scale—from theme parks and food service to community
-              and AI. He combines strategic vision with hands-on execution:
-              founding industry alliances, shipping AI and IoT at scale, and
-              delivering measurable business results. Leadership highlights include
-              elected roles on the Six Flags DEI Committee, President of the ACM
-              chapter during undergrad, and 1st Place in the MIT EMBA Negotiation
-              Competition.
+              Build one of the most impactful technology companies globally, dedicated to significantly improving people&apos;s lives.
             </p>
+          </section>
+
+          <section className="mt-12">
+            <h2 className="font-heading text-xl font-semibold text-ink">Values</h2>
+            <ul className="mt-6 space-y-6">
+              <li>
+                <h3 className="font-heading font-medium text-ink">Respect</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Foster deep respect by consistently treating each other with dignity, empathy, and fairness in every interaction.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Accountability</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Own our actions, deliver on commitments, and embrace responsibility for outcomes.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Entrepreneurship</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Innovate boldly, act decisively, and proactively pursue opportunities to create meaningful impact.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Humility</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Stay open, continuously learn, and seek growth through honest reflection.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Integrity</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Act ethically and transparently, maintaining honesty even when no one is watching.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Kindness</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Approach all interactions with compassion, empathy, and genuine care.
+                </p>
+              </li>
+              <li>
+                <h3 className="font-heading font-medium text-ink">Teamwork</h3>
+                <p className="mt-2 text-muted text-sm leading-relaxed">
+                  Collaborate effectively, support each other actively, and grow together toward shared success.
+                </p>
+              </li>
+            </ul>
           </section>
 
           <section className="mt-12">
@@ -82,7 +123,12 @@ export default function AboutPage() {
 
       <section className="mt-16 rounded-xl border border-border bg-surface p-6">
         <h2 className="font-heading text-xl font-semibold text-ink">Contact</h2>
-        <p className="mt-2 text-muted">{profile.tagline}</p>
+        <p className="mt-2 text-muted">
+          Tech executive & founder building the first community social media platform, Vibe{' '}
+          <a href={profile.vibeUrl} target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">
+            vibeconnect.social
+          </a>
+        </p>
         <a href={`mailto:${profile.email}`} className="mt-4 inline-block text-sm text-teal hover:text-teal-hover transition-colors">
           {profile.email}
         </a>

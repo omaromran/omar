@@ -107,22 +107,25 @@ Place under `public/images/work/`. If a file is missing, the Work page shows a p
 | `public/images/work/sixflags-1.jpg` | Six Flags |
 | `public/images/work/welbilt-1.jpg` | Welbilt / KitchenConnect |
 | `public/images/work/middleby-1.jpg` | Middleby |
-| `public/images/work/vibe-1.jpg` | Vibe Connect |
+| `public/images/work/vibe-1.png` | Vibe Connect (included) |
 | `public/images/work/alliances-logos.png` | Optional (or `.svg`) for alliances section |
+
+**Middleby & Welbilt:** To use official imagery, add `middleby-1.jpg` and `welbilt-1.jpg` from company sources (e.g. [Middleby Brand Resources](https://www.middleby.com/brand-resources/), Welbilt/Ali Group press or brand contacts). If files are missing, the Work page shows placeholders.
 
 ### Folder structure
 
 ```
 public/
   images/
-    headshot.jpg
-    headshot-alt.jpg   (optional)
+    headshot.png
+    headshot-alt.png   (optional)
     og-cover.jpg
+    hero-bg.png        (optional)
     work/
-      sixflags-1.jpg
-      welbilt-1.jpg
-      middleby-1.jpg
-      vibe-1.jpg
+      sixflags-1.png
+      welbilt-1.jpg    (add from Welbilt/Ali Group)
+      middleby-1.jpg   (add from Middleby brand resources)
+      vibe-1.png       (included)
       alliances-logos.png   (optional)
 ```
 

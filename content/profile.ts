@@ -1,6 +1,7 @@
 export const profile = {
   name: 'Omar Jacques Omran',
-  tagline: 'Tech executive & founder building AI-first community platforms',
+  tagline: 'Tech executive & founder building the first community social media platform, Vibe vibeconnect.social',
+  vibeUrl: 'https://vibeconnect.social',
   shortBio:
     'Named one of the Top 150 Global Innovators in 2024. Delivered $500M+ in cumulative net profit growth and built the two largest technology alliances in the theme park and food service industries.',
   email: 'omarjomran@alum.mit.edu',
@@ -16,5 +17,5 @@ export const profile = {
   siteUrl: 'https://omaromran.com',
   defaultTitle: 'Omar Jacques Omran — Tech Executive & Founder',
   defaultDescription:
-    'Tech executive and founder. Top 150 Global Innovator. Former CTO at Six Flags, VP Digital Transformation at Welbilt. Building AI-first community platforms.',
+    'Tech executive and founder. Top 150 Global Innovator. Former CTO at Six Flags, VP Digital Transformation at Welbilt. Building the first community social media platform, Vibe (vibeconnect.social).',
 } as const;

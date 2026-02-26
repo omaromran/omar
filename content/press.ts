@@ -9,11 +9,11 @@ export interface PressItem {
 
 export const press: PressItem[] = [
   {
-    title: 'TEDx: Shyness is a Bacteria, Not a Parasite',
+    title: 'TED Talk: Building up your resilience even if the odds are against you.',
     source: 'YouTube / TEDx',
     url: 'https://www.youtube.com/watch?v=CedcZlS9ms4',
     year: '—',
-    relevance: 'Keynote on reframing shyness through community and connection.',
+    relevance: 'Steps and example on how to achieve "naive" goals.',
     featured: true,
   },
   {
@@ -37,6 +37,7 @@ export const press: PressItem[] = [
     url: 'https://www.constellationr.com/communities/business-transformation-150/bt150-executives/2024-2025',
     year: '2024–2025',
     relevance: 'Official list including Omar Jacques Omran.',
+    featured: true,
   },
   {
     title: 'Six Flags to Accelerate Digital Transformation with Google Cloud Generative AI',
@@ -60,6 +61,7 @@ export const press: PressItem[] = [
     url: 'https://finance.yahoo.com/news/six-flags-six-google-cloud-161300443.html',
     year: '—',
     relevance: 'Six Flags and Google Cloud alliance.',
+    featured: true,
   },
   {
     title: 'Welbilt KitchenConnect and HCL Technologies',

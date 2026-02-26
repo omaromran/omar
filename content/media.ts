@@ -15,9 +15,9 @@ export const media = {
   heroBg: `${imagesBase}/hero-bg.png`,
   work: {
     sixflags: `${imagesBase}/work/sixflags-1.png`,
-    welbilt: `${imagesBase}/work/welbilt-1.jpg`,
-    middleby: `${imagesBase}/work/middleby-1.jpg`,
-    vibe: `${imagesBase}/work/vibe-1.jpg`,
+    welbilt: `${imagesBase}/work/welbilt-1.png`,
+    middleby: `${imagesBase}/work/middleby-1.png`,
+    vibe: `${imagesBase}/work/vibe-1.png`,
     alliancesLogos: `${imagesBase}/work/alliances-logos.png`,
   },
   /** Optional: per-role gallery (array of paths) */

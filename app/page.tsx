@@ -70,7 +70,10 @@ export default function HomePage() {
               {profile.name}
             </h1>
             <p className="mt-4 font-heading text-xl text-teal md:text-2xl font-medium">
-              {profile.tagline}
+              Tech executive & founder building the first community social media platform, Vibe{' '}
+              <a href={profile.vibeUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                vibeconnect.social
+              </a>
             </p>
             <p className="mx-auto md:mx-0 mt-6 max-w-2xl text-base text-muted md:text-lg">
               {profile.shortBio}
