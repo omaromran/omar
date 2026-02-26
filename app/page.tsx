@@ -86,11 +86,19 @@ export default function HomePage() {
                 Press / Speaking
               </CTAButton>
             </div>
-            <nav className="mt-8 flex flex-wrap justify-center md:justify-start gap-3 text-sm text-muted2" aria-label="Page sections">
-              <a href="#impact" className="rounded-full px-4 py-2 hover:bg-teal-tint/60 hover:text-teal transition-colors">Impact</a>
-              <a href="#featured" className="rounded-full px-4 py-2 hover:bg-gold-tint/50 hover:text-amber-700 transition-colors">Featured</a>
-              <a href="#press" className="rounded-full px-4 py-2 hover:bg-teal-tint/60 hover:text-teal transition-colors">Press</a>
-              <a href="#awards" className="rounded-full px-4 py-2 hover:bg-gold-tint/50 hover:text-amber-700 transition-colors">Awards</a>
+            <nav className="mt-8 flex flex-wrap justify-center md:justify-start gap-3 text-sm text-muted" aria-label="Page sections">
+              <a href="#impact" className="rounded-full border border-border px-4 py-2 hover:bg-border/50 hover:text-ink transition-colors">
+                Impact
+              </a>
+              <a href="#featured" className="rounded-full border border-border px-4 py-2 hover:bg-border/50 hover:text-ink transition-colors">
+                Featured
+              </a>
+              <a href="#press" className="rounded-full border border-border px-4 py-2 hover:bg-border/50 hover:text-ink transition-colors">
+                Press
+              </a>
+              <a href="#awards" className="rounded-full border border-border px-4 py-2 hover:bg-border/50 hover:text-ink transition-colors">
+                Awards
+              </a>
             </nav>
           </div>
         </div>

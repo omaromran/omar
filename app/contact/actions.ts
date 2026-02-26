@@ -28,7 +28,7 @@ export async function submitContact(formData: FormData): Promise<{ success?: boo
   }
 
   if (resend) {
-    const { error } = await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: FROM_EMAIL,
       to: TO_EMAIL,
       replyTo: email,
@@ -38,7 +38,10 @@ export async function submitContact(formData: FormData): Promise<{ success?: boo
     });
     if (error) {
       console.error('[Contact form] Resend error:', error);
-      return { success: false, error: 'Failed to send. Please try again or email directly.' };
+      // Resend's test sender (onboarding@resend.dev) can only send TO your Resend signup email.
+      // Verify a domain in Resend and set CONTACT_FROM_EMAIL to send to any address.
+      const errMessage = error.message || 'Failed to send. Please try again or email directly.';
+      return { success: false, error: errMessage };
     }
     return { success: true };
   }
