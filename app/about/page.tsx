@@ -15,6 +15,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const narrative = [
     'Omar Jacques Omran was named one of the Top 150 Global Innovators in 2024 for his leadership in technology and digital transformation across three publicly traded companies.',
+    "He is the founder and CEO of Vibe, the world's first community social media platform—built to make social media more social, mindful, and rooted in real-life connection.",
+    "He serves on the board of GoodFood, Canada's largest publicly traded meal kit company, where he advises on turnaround, technology, and AI strategy.",
     'He has delivered over $500M in cumulative net profit growth through large-scale innovations and by building the two largest technology alliances in the theme park and food service industries.',
     "As Chief Technology Officer at Six Flags, Omar led the company's largest digital transformation across 27 parks, managing $1.5B in revenue systems and generating $100M in incremental net profit.",
     "Prior to that, he served as VP of Digital Transformation at Welbilt, where he scaled KitchenConnect into the world's largest foodservice IoT platform. At Middleby, he founded Middleby Connect (known today as Open Kitchen), one of the earliest cloud platforms in the industry.",
