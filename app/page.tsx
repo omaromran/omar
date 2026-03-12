@@ -226,7 +226,7 @@ export default function HomePage() {
             Let&apos;s connect
           </h2>
           <p className="mt-4 text-muted">
-            For speaking, advisory, or investing opportunities.
+            For speaking, partnerships, board & advisory, or investing opportunities.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <CTAButton href="/contact" variant="primary">
