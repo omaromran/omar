@@ -51,6 +51,18 @@ export const experience: Role[] = [
     ],
   },
   {
+    company: 'GoodFood',
+    title: 'Board of Directors',
+    location: 'Canada',
+    dates: 'Present',
+    url: 'https://www2.makegoodfood.ca/en/investisseurs',
+    bullets: [
+      'Serving on the board of GoodFood, the Canadian public company, to help turn around the business and guide its transformation into an AI-driven company.',
+      'Advising on technology strategy and execution to improve platforms, operations, and digital capabilities.',
+    ],
+    whatIBuilt: ['Board governance', 'AI and technology turnaround strategy'],
+  },
+  {
     company: 'Welbilt (Ali Group)',
     title: 'VP Digital Transformation & Managing Director, KitchenConnect',
     location: 'Tampa, FL',

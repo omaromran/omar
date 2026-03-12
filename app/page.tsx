@@ -17,7 +17,7 @@ const featuredRoles = [
   experience[0],
   experience[1],
   experience[2],
-  experience[5],
+  experience[6],
 ];
 
 const featuredPress = press.filter((p) => p.featured).slice(0, 6);

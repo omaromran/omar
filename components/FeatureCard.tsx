@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 const COMPANY_INITIALS: Record<string, string> = {
   'Vibe Connect': 'V',
   'Six Flags Entertainment Corporation': '6',
+  'GoodFood': 'G',
   'Welbilt (Ali Group)': 'W',
   'The Middleby Corporation': 'M',
 };

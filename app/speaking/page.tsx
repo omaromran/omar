@@ -11,6 +11,9 @@ export const metadata: Metadata = {
 const tedxVideoId = 'CedcZlS9ms4';
 const tedxEmbedUrl = `https://www.youtube.com/embed/${tedxVideoId}?rel=0`;
 
+const youtubeVideoId = '_mji2fHyxkg';
+const youtubeEmbedUrl = `https://www.youtube.com/embed/${youtubeVideoId}?start=51&rel=0`;
+
 export default function SpeakingPage() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-16 md:py-24">
@@ -48,9 +51,34 @@ export default function SpeakingPage() {
         </div>
       </section>
 
+      <section className="mt-16 rounded-xl border border-border bg-surface overflow-hidden shadow-sm">
+        <div className="aspect-video w-full">
+          <iframe
+            src={youtubeEmbedUrl}
+            title="Speaking — YouTube"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="h-full w-full"
+          />
+        </div>
+        <div className="p-6">
+          <h2 className="font-heading text-xl font-semibold text-ink">
+            Speaking
+          </h2>
+          <a
+            href="https://www.youtube.com/watch?v=_mji2fHyxkg&t=51s"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-sm text-teal hover:text-teal-hover transition-colors"
+          >
+            Watch on YouTube →
+          </a>
+        </div>
+      </section>
+
       <section className="mt-16 rounded-xl border border-border bg-surface p-8 text-center">
         <h2 className="font-heading text-xl font-semibold text-ink">
-          Book me to speak
+          Get in touch for speaking engagements
         </h2>
         <p className="mt-3 text-muted max-w-xl mx-auto">
           For keynotes on digital transformation, AI in entertainment and
