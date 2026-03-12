@@ -55,7 +55,7 @@ export default function SpeakingPage() {
         <div className="aspect-video w-full">
           <iframe
             src={youtubeEmbedUrl}
-            title="Speaking — YouTube"
+            title="How to build the biggest alliance in an industry."
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="h-full w-full"
@@ -63,7 +63,7 @@ export default function SpeakingPage() {
         </div>
         <div className="p-6">
           <h2 className="font-heading text-xl font-semibold text-ink">
-            Speaking
+            How to build the biggest alliance in an industry.
           </h2>
           <a
             href="https://www.youtube.com/watch?v=_mji2fHyxkg&t=51s"
